@@ -1,0 +1,14 @@
+why Hooks?
+- Understand how this works in JS
+- Remember to bind event handlers in class components
+- Classes dont minify very well and makes hot reloading very unreliable
+Set 2
+- There is no particular way to reuse stateful component logic
+- HOC and render props do address this problem
+- Makes code harder to follow
+- There is a need to share stateful logic in a better way
+Set 3
+- Instead of forcing a stateful code split on based on lifecycle methods, it allows
+you to split on based on related code
+Hooks help us organise our code into reusable logic
+
